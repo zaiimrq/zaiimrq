@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\DataTransfersObject;
+
 use App\Http\Requests\ProjectRequest;
 use Illuminate\Http\UploadedFile;
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Services;
+
 use Illuminate\Http\UploadedFile;
 
 class UploadService

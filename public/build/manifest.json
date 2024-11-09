@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CTU2iPm1.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/img/profile.jpg": {
+    "file": "assets/profile-CwXsSRlv.jpg",
+    "src": "resources/img/profile.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B3Dl-D_7.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
