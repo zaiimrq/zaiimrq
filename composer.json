@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "afatmustafa/blade-hugeicons": "^0.0.3",
         "hasnayeen/blade-eva-icons": "^2.0",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
@@ -29,7 +30,6 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Src\\": "src/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

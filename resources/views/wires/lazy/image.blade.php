@@ -19,11 +19,11 @@ class extends Component {
     public function placeholder()
     {
         return <<<HTML
-        <div class="skeleton w-full h-32 {$this->lazyClass}"></div>
+        <div class="skeleton w-full h-72 md:h-32 {$this->lazyClass}"></div>
         HTML;
     }
 }; ?>
 
 <div>
-    <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+    <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" class="object-cover object-center w-full h-full" >
 </div>

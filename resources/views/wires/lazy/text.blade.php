@@ -15,7 +15,7 @@ class extends Component {
     public function placeholder()
     {
         return <<<HTML
-            <div class="skeleton w-full h-4 {$this->lazyClass}" ></div>
+            <div class="skeleton w-full h-5 {$this->lazyClass}" ></div>
         HTML;
     }
 }; ?>

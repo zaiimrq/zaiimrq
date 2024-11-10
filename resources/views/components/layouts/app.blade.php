@@ -14,23 +14,41 @@
 <body class="min-h-screen font-serif antialiased bg-base-200/50 dark:bg-base-200">
     <x-nav sticky full-width class="bg-transparent backdrop-blur-2xl">
         <x-slot:brand>
-            <div class="text-2xl font-bold">zaiimrq</div>
+            <a wire:navigate class="text-2xl font-bold" href="/">zaiimrq</a>
         </x-slot:brand>
         <x-slot:actions>
             <x-theme-toggle class="btn-small" darkTheme="black" lightTheme="light" />
         </x-slot:actions>
     </x-nav>
     <x-main with-nav full-width>
-        <x-slot:content class="max-w-screen-md">
+        @auth
+            @if (!request()->routeIs('welcome'))
+                <x-slot:sidebar drawer="main-drawer" collapsible class="bg-base-100 lg:bg-inherit">
+                    <x-menu activate-by-route>
+
+                        @if ($user = auth()->user())
+                            <x-list-item :item="$user" value="name" sub-value="email" no-separator no-hover
+                                class="-mx-2 !-my-2 rounded">
+                                <x-slot:actions>
+                                    <x-button icon="o-power" class="btn-circle btn-ghost btn-xs" tooltip-left="logout"
+                                        no-wire-navigate link="/logout" />
+                                </x-slot:actions>
+                            </x-list-item>
+
+                            <x-menu-separator />
+                        @endif
+
+                        <x-menu-item title="Dashboard" icon="hugeicons.dashboard-square-02" :link="route('dashboard')" />
+                        <x-menu-item title="Projects" icon="hugeicons.task-01" :link="route('project.index')" />
+                    </x-menu>
+                </x-slot:sidebar>
+            @endif
+        @endauth
+
+        <x-slot:content @class(['max-w-screen-md' => request()->routeIs('welcome')])>
             {{ $slot }}
-            <footer class="flex justify-between p-5 mt-10" >
-                <div class="flex items-center gap-2" >
-                    <span>&copy; 2024</span>
-                    <span class="font-bold" >zaiimrq</span>
-                    <span>All rights reserved</span>
-                </div>
-                <a href="" class="link" >Terms & Conditions</a>
-            </footer>
+
+            <x-footer :show="request()->routeIs('welcome')" />
         </x-slot:content>
 
     </x-main>

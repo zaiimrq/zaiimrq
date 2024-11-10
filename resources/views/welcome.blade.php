@@ -5,24 +5,24 @@
         <p class="text-lg leading-relaxed text-pretty">"Explore my projects and see the work I’ve built."</p>
     </div>
 
-    <div class="grid grid-cols-3 gap-3">
-        @for ($i = 1; $i <= 6; $i++)
+    <div class="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+        @foreach ($projects as $project)
             <x-card class="shadow">
-                <x-slot:figure class="flex-col gap-2">
-                    <livewire:lazy.image src="https://picsum.photos/500/300" >
+                <x-slot:figure class="aspect-video">
+                    <livewire:lazy.image :src="Storage::url($project->image)" >
                 </x-slot:figure>
-                <x-slot:title class="text-lg">
-                    <livewire:lazy.text text="Inventory gudang">
+                <x-slot:title>
+                    <livewire:lazy.text :label="$project->title" class="text-lg" >
                 </x-slot:title>
-                <x-slot:subtitle class="text-md">
-                    <livewire:lazy.text label="Aplikasi manajemen barang berbasis desktop" >
+                <x-slot:subtitle>
+                    <livewire:lazy.text :label="$project->subtitle" class="text-md" >
                 </x-slot:subtitle>
                 <x-slot:actions>
                     <x-button icon="fas.link" class="btn-circle btn-xs" />
                     <x-button icon="fab.github" class="btn-circle btn-xs" />
                 </x-slot:actions>
             </x-card>
-        @endfor
+        @endforeach
     </div>
     <div class="flex justify-center mt-5">
         <x-button icon-right="s-arrow-right-circle" label="View More" class="rounded-full btn-sm animate-bounce" />
