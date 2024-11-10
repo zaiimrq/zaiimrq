@@ -87,6 +87,9 @@ new class extends Component {
                 <img src="{{ Storage::url($project->image) }}" alt="" class="object-cover object-center w-full h-full" >
             </div>
         @endscope
+        @scope('cell_subtitle', $project)
+            <p>{{ str($project->subtitle)->limit(50, preserveWords: true) }}</p>
+        @endscope
         @scope('actions', $project)
         <div class="flex gap-3" >
             <x-button icon="o-pencil-square" class="btn-sm btn-circle text-warning" wire:click.stop="$toggle('modal'); $wire.setProject({{ $project->id }})"  />
@@ -98,7 +101,7 @@ new class extends Component {
     <x-modal wire:model='modal' class="backdrop-blur-lg">
         <x-form wire:submit='save'>
             <x-input wire:model='form.title' label="Title" />
-            <x-input wire:model='form.subtitle' label="Subtitle" />
+            <x-textarea wire:model='form.subtitle' label="Subtitle" />
             <x-file wire:model='form.image' label="Image"/>
 
             <x-button type="submit" label="Save" class="mt-3 bg-primary" spinner="save" />

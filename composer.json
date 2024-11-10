@@ -14,7 +14,6 @@
         "livewire/volt": "^1.6",
         "owenvoke/blade-fontawesome": "^2.7",
         "robsontenorio/mary": "^1.41",
-        "spatie/laravel-image-optimizer": "^1.8",
         "spatie/laravel-responsecache": "^7.6"
     },
     "require-dev": {

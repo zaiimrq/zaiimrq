@@ -4,6 +4,7 @@ namespace App\Observers;
 
 use App\Models\Project;
 use Illuminate\Support\Facades\Storage;
+use Spatie\ResponseCache\Facades\ResponseCache;
 
 class ProjectObserver
 {
@@ -15,6 +16,11 @@ class ProjectObserver
         $project->image = Storage::disk('public')->put('projects', $project->image);
     }
 
+    public function created(Project $project): void
+    {
+        ResponseCache::clear();
+    }
+
     /**
      * Handle the Project "updated" event.
      */
@@ -24,6 +30,11 @@ class ProjectObserver
             Storage::disk('public')->delete($project->getOriginal('image'));
             $project->image = Storage::disk('public')->put('projects', $project->image);
         }
+    }
+
+    public function updated(Project $project): void
+    {
+        ResponseCache::clear();
     }
 
     /**
