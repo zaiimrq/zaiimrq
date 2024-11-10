@@ -11,10 +11,12 @@
     <meta property="og:url" content="{{ url()->current() }}" >
     <meta property="og:description" content="Lihat semua projek zaiimrq di bidang pemrograman." >
     <meta name="google-site-verification" content="tRwmooc9s6Vg7araHMQW1mtpYN9DnmpUdMGc_tJn5Fo" />
+    <meta http-equiv="Cache-Control" content="max-age=2592000" />
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ Vite::asset('resources/img/profile.jpg') }}" type="image/x-icon">
     <link rel="canonical" href="https://zaiimrq.serv00.net">
-    
+
     <title>{{ isset($title) ? $title . ' - ' . config('app.name') : config('app.name') }}</title>
 
     <!-- Google tag (gtag.js) -->
