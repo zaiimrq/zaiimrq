@@ -1,16 +1,12 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-LMu5S2TT.css",
+    "file": "assets/app-C77lQrZT.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/img/profile.jpg": {
     "file": "assets/profile-CwXsSRlv.jpg",
     "src": "resources/img/profile.jpg"
-  },
-  "resources/img/sample.jpg": {
-    "file": "assets/sample-DR9MYEti.jpg",
-    "src": "resources/img/sample.jpg"
   },
   "resources/js/app.js": {
     "file": "assets/app-B3Dl-D_7.js",
