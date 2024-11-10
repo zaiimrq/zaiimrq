@@ -15,7 +15,7 @@
 <body class="min-h-screen font-serif antialiased bg-base-200/50 dark:bg-base-200">
     <x-nav sticky full-width class="bg-transparent backdrop-blur-2xl">
         <x-slot:brand>
-            @if (request()->as('admin*'))
+            @if (request()->is('admin*'))
                 <label for="main-drawer" class="mr-5 lg:hidden">
                     <x-icon name="o-bars-3" class="cursor-pointer" />
                 </label>
