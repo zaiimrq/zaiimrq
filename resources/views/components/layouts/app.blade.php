@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="google-site-verification" content="tRwmooc9s6Vg7araHMQW1mtpYN9DnmpUdMGc_tJn5Fo" />
     <title>{{ isset($title) ? $title . ' - ' . config('app.name') : config('app.name') }}</title>
     <link rel="shortcut icon" href="{{ Vite::asset('resources/img/profile.jpg') }}" type="image/x-icon">
 
