@@ -6,7 +6,8 @@ use Livewire\Volt\Volt;
 
 Route::get('/', WelcomeController::class)->name('welcome');
 
-Route::prefix('admin')
+Route::middleware(['auth'])
+    ->prefix('admin')
     ->group(function () {
         Route::get('/dashboard', fn() => view('dashboard'))->name('dashboard');
         Volt::route('/projects', 'pages.projects.index')->name('project.index');
