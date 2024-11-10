@@ -15,9 +15,11 @@
 <body class="min-h-screen font-serif antialiased bg-base-200/50 dark:bg-base-200">
     <x-nav sticky full-width class="bg-transparent backdrop-blur-2xl">
         <x-slot:brand>
-            <label for="main-drawer" class="mr-5 lg:hidden">
-                <x-icon name="o-bars-3" class="cursor-pointer" />
-            </label>
+            @if (request()->as('admin*'))
+                <label for="main-drawer" class="mr-5 lg:hidden">
+                    <x-icon name="o-bars-3" class="cursor-pointer" />
+                </label>
+            @endif
             <a wire:navigate class="text-2xl font-bold" href="/">zaiimrq</a>
         </x-slot:brand>
         <x-slot:actions>
