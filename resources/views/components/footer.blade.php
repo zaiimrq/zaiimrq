@@ -1,7 +1,7 @@
 @props(['show' => true])
 
 @if ($show)
-    <footer class="flex justify-between p-5 mt-10">
+    <footer class="flex flex-wrap items-center justify-center mt-10 text-sm md:gap-2 md:justify-between md:text-md">
         <div class="flex items-center gap-2">
             <span>&copy; 2024</span>
             <span class="font-bold">zaiimrq</span>

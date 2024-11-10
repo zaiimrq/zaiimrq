@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="light">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="black">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ isset($title) ? $title . ' - ' . config('app.name') : config('app.name') }}</title>
+    <link rel="shortcut icon" href="{{ Vite::asset('resources/img/profile.jpg') }}" type="image/x-icon">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
@@ -14,6 +15,9 @@
 <body class="min-h-screen font-serif antialiased bg-base-200/50 dark:bg-base-200">
     <x-nav sticky full-width class="bg-transparent backdrop-blur-2xl">
         <x-slot:brand>
+            <label for="main-drawer" class="mr-5 lg:hidden">
+                <x-icon name="o-bars-3" class="cursor-pointer" />
+            </label>
             <a wire:navigate class="text-2xl font-bold" href="/">zaiimrq</a>
         </x-slot:brand>
         <x-slot:actions>

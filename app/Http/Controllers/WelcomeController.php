@@ -16,7 +16,7 @@ class WelcomeController extends Controller
         if (! Auth::check()) {
             Auth::loginUsingId(1);
         }
-        
+
         $projects = Project::take(6)->get();
 
         return view('welcome', compact('projects'));
