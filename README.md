@@ -13,7 +13,7 @@ Pengen tau lebih banyak tentang karya-karya saya? Langsung aja cek [website](htt
 - 👯 I'm looking to collaborate on **Laravel & Livewire Projects**
 - 🤔 I'm looking for help with **Modern Laravel Practices**
 - 💬 Ask me about **Laravel, TALL Stack Development**
-- 📫 How to reach me: **zaiimrq@gmail.com**
+- 📫 How to reach me: **https://zaiimrq.serv00.net**
 - 😄 Pronouns: **He/Him**
 - ⚡ Fun fact: **Coffee + Code = Magic ✨**
 
