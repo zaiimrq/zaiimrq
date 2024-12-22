@@ -2,7 +2,7 @@
 
 ## 🌟 About Me
 
-Seorang Full Stack Developer yang hobi ngoprek hal baru. Nggak cuma sekedar ngoding, tapi juga suka eksplorasi teknologi dari sisi frontend sampai backend buat bikin website yang keren dan berguna. Lagi fokus mendalami Laravel sebagai backend dan React sebagai frontend, tapi selalu terbuka buat belajar stack baru!
+Seorang Full Stack Developer yang hobi ngoprek hal baru. Nggak cuma sekedar ngoding, tapi juga suka eksplorasi teknologi dari sisi frontend sampai backend buat bikin website yang keren dan berguna. Lagi fokus mendalami Laravel sebagai framework utama, tapi selalu terbuka buat belajar stack baru!
 
 Pengen tau lebih banyak tentang karya-karya saya? Langsung aja cek [website](https://zaiimrq.serv00.net) ku. Disana ada beberapa project yang udah pernah aku buat. 🚀
 
