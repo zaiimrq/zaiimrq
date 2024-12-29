@@ -4,7 +4,7 @@
 
 Seorang Full Stack Developer yang hobi ngoprek hal baru. Nggak cuma sekedar ngoding, tapi juga suka eksplorasi teknologi dari sisi frontend sampai backend buat bikin website yang keren dan berguna. Lagi fokus mendalami Laravel sebagai framework utama, tapi selalu terbuka buat belajar stack baru!
 
-Pengen tau lebih banyak tentang karya-karya saya? Langsung aja cek [website](https://zaiimrq.serv00.net) ku. Disana ada beberapa project yang udah pernah aku buat. 🚀
+Pengen tau lebih banyak tentang karya-karya saya? Langsung aja cek [website](https://bit.ly/zaiimrq) ku. Disana ada beberapa project yang udah pernah aku buat. 🚀
 
 ## 👨‍💻 Current Status
 
@@ -13,7 +13,7 @@ Pengen tau lebih banyak tentang karya-karya saya? Langsung aja cek [website](htt
 - 👯 I'm looking to collaborate on **Laravel & Livewire Projects**
 - 🤔 I'm looking for help with **Modern Laravel Practices**
 - 💬 Ask me about **Laravel, TALL Stack Development**
-- 📫 How to reach me: **https://zaiimrq.serv00.net**
+- 📫 How to reach me: **https://bit.ly/zaiimrq**
 - 😄 Pronouns: **He/Him**
 - ⚡ Fun fact: **Coffee + Code = Magic ✨**
 
