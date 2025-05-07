@@ -2,6 +2,8 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
+###
+
 <div align="center">
   <a href="https://facebook.com/zaiimrq" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="facebook logo"  />
@@ -12,31 +14,22 @@
 </div>
 
 ###
+
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=zaiimrq.zaiimrq&"  />
 </div>
 
-# Hello World 👋
+###
 
-### 🌟 About Me
-I'm a **Full Stack Developer** passionate about building functional and visually appealing web applications. Currently diving deep into **Laravel** and the **TALL Stack** (Tailwind, Alpine.js, Laravel, Livewire). Always open to exploring new technologies and collaborating on exciting projects!
+<h1 align="center">Hello World 👋</h1>
 
-Check out my portfolio: [zaiimrq's Website](https://bit.ly/zaiimrq) 🚀
+###
 
----
+<h4 align="left">👩‍💻  About Me</h4>
 
-### 👨‍💻 Current Status
-- 🔭 Working on **Full Stack Web Applications**
-- 🌱 Learning **TALL Stack (Tailwind, Alpine.js, Laravel, Livewire)**
-- 👯 Looking to collaborate on **Laravel & Livewire Projects**
-- 🤔 Seeking help with **Modern Laravel Practices**
-- 💬 Ask me about **Laravel, TALL Stack Development**
-- 📫 Reach me at: [zaiimrq's Website](https://bit.ly/zaiimrq)
-- 😄 Pronouns: **He/Him**
-- ⚡ Fun fact: **Coffee + Code = Magic ✨**
+###
 
----
-
+<p align="left">I'm a **Full Stack Developer** passionate about building functional and visually appealing web applications. Currently diving deep into **Laravel** and the **TALL Stack** (Tailwind, Alpine.js, Laravel, Livewire). Always open to exploring new technologies and collaborating on exciting projects!<br><br>Check out my portfolio: [zaiimrq's Website](https://bit.ly/zaiimrq) 🚀<br><br>---<br><br>## 👨‍💻 Current Status<br>- 🔭 Working on **Full Stack Web Applications**<br>- 🌱 Learning **TALL Stack (Tailwind, Alpine.js, Laravel, Livewire)**<br>- 👯 Looking to collaborate on **Laravel & Livewire Projects**<br>- 🤔 Seeking help with **Modern Laravel Practices**<br>- 💬 Ask me about **Laravel, TALL Stack Development**<br>- 📫 Reach me at: [zaiimrq's Website](https://bit.ly/zaiimrq)<br>- 😄 Pronouns: **He/Him**<br>- ⚡ Fun fact: **Coffee + Code = Magic ✨**<br><br>---</p>
 
 ###
 
@@ -78,9 +71,11 @@ Check out my portfolio: [zaiimrq's Website](https://bit.ly/zaiimrq) 🚀
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zaiimrq&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=github_dark&hide_border=false&order=2" height="150" alt="languages graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=zaiimrq&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=zaiimrq&locale=en&mode=daily&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zaiimrq&radius=16&theme=github-dark&area=true&order=5" height="300" alt="activity-graph graph"  />
+</div>
+
+###
 
 <img src="https://raw.githubusercontent.com/zaiimrq/zaiimrq/output/snake.svg" alt="Snake animation" />
 
 ###
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zaiimrq&radius=16&theme=github-dark&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
