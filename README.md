@@ -21,8 +21,6 @@
 ### 🌟 About Me
 I'm a **Full Stack Developer** passionate about building functional and visually appealing web applications. Currently diving deep into **Laravel** and the **TALL Stack** (Tailwind, Alpine.js, Laravel, Livewire). Always open to exploring new technologies and collaborating on exciting projects!
 
-Check out my portfolio: [zaiimrq's Website](https://bit.ly/zaiimrq) 🚀
-
 ---
 
 ### 👨‍💻 Current Status
@@ -31,7 +29,6 @@ Check out my portfolio: [zaiimrq's Website](https://bit.ly/zaiimrq) 🚀
 - 👯 Looking to collaborate on **Laravel & Livewire Projects**
 - 🤔 Seeking help with **Modern Laravel Practices**
 - 💬 Ask me about **Laravel, TALL Stack Development**
-- 📫 Reach me at: [zaiimrq's Website](https://bit.ly/zaiimrq)
 - 😄 Pronouns: **He/Him**
 - ⚡ Fun fact: **Coffee + Code = Magic ✨**
 
